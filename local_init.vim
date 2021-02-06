@@ -68,6 +68,12 @@ colorscheme solarized
 " Rust-lang plugin
 Plug 'rust-lang/rust.vim'
 "
+"Semantic Highlighting for C, Rust,...
+Plug 'jaxbot/semantic-highlight.vim'
+"
+"Bitbake.vim
+Plug 'kergoth/vim-bitbake'
+
 
 " FINDING FILES:
 " Search down into subfolders
