@@ -27,7 +27,7 @@ autocmd FileType c,cpp,h,py let Tlist_Auto_Open=1
 "
 
 " AIRLINE:
-" let g:airline_powerline_fonts = 1  " Not working by now...
+let g:airline_powerline_fonts = 1  " Not working by now...
     " needs : git clone git://github.com/powerline/fonts.git "
     " ./install.sh "
 
@@ -94,8 +94,8 @@ set makeprg=cmakedbg
 " :make
 
 "
-" Tagbar:
-g:tagbar_ctags_bin = '/usr/bin/ctags-exuberant'
+" Tagbar:            
+let g:tagbar_ctags_bin ="/usr/bin/ctags-exuberant"
 
 
 
@@ -288,6 +288,11 @@ nnoremap <C-p> :GFiles<CR>
 "
 "
 let g:coc_disable_startup_warning = 1
+
+" COC needs a config file
+if filereadable(expand("~/.config/nvim/coc_config.vim"))  
+    source ~/.config/nvim/coc_config.vim
+endif
 
 
 

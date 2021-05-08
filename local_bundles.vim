@@ -65,3 +65,15 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 "
  
+
+" STILL UNDER TESTING
+"Plug 'vim-syntastic/syntastic'
+"Plug 'vhdirk/vim-cmake'
+Plug 'skywind3000/asyncrun.vim'
+Plug 'Valloric/YouCompleteMe'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh' }
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+"Plug 'ryanoasis/vim-devicons'
+"Plug 'bfrg/vim-cpp-modern'
+

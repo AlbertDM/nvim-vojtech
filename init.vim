@@ -41,7 +41,6 @@ Plug 'majutsushi/tagbar'
 Plug 'w0rp/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
-Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'rust-lang/rust.vim'
 Plug 'mattn/webapi-vim' " required for RustPlay
@@ -473,6 +472,8 @@ let g:airline#extensions#virtualenv#enabled = 1
 " Default highlight is better than polyglot
 let g:polyglot_disabled = ['python']
 let python_highlight_all = 1
+" polyglot_disabled should be defined before loading vim-polyglot.
+Plug 'sheerun/vim-polyglot'
 
 
 " rust
