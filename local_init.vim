@@ -175,7 +175,7 @@ let g:vim_markdown_json_frontmatter = 1  " for JSON format
 " :call mkdp#util#install()
 "
 "
-let g:mkdp_markdown_css='/home/albert/.local/lib/github-markdown-css/github-markdown.css'
+let g:mkdp_markdown_css='/home/vojtech/.local/lib/github-markdown-css/github-markdown.css'
 
 " set to 1, nvim will open the preview window after entering the markdown buffer
 " default: 0
@@ -280,19 +280,19 @@ let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 " COC Autocompletion
 "  -----------------
 " Jump to defintion
-nmap <leader>gd <Plug>(coc-definition)
+    "nmap <leader>gd <Plug>(coc-definition)
 " Finding references
-nmap <leader>gr <Plug>(coc-references)
+    "nmap <leader>gr <Plug>(coc-references)
 " Open any file quickly 
-nnoremap <C-p> :GFiles<CR>
+    "nnoremap <C-p> :GFiles<CR>
 "
 "
-let g:coc_disable_startup_warning = 1
+    "let g:coc_disable_startup_warning = 1
 
 " COC needs a config file
-if filereadable(expand("~/.config/nvim/coc_config.vim"))  
-    source ~/.config/nvim/coc_config.vim
-endif
+" if filereadable(expand("~/.config/nvim/coc_config.vim"))  
+"    source ~/.config/nvim/coc_config.vim
+" endif
 
 
 

@@ -52,7 +52,7 @@ let g:limelight_priority = -1
 
 " ## Autocompletes ##
 " COC
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "
     " Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 "

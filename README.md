@@ -27,6 +27,8 @@ I expect to improve the expalantions of how I use the plugins and the commands I
 * ./build.py --go-completer
 * `~/.config/nvim/plugged/YouCompleteMe$ python3 install.py --go-completer`
 * `~/.config/nvim/plugged/YouCompleteMe$ python3 install.py --all`
+* "Failed to load python3 host"
+    * pip3 install pynvim
 * ...
 * ...
 Conclusions:
