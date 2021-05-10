@@ -116,11 +116,26 @@ vnoremap <A-S-LeftDrag> <LeftDrag>
 vnoremap <A-S-LeftMouse> <C-v><LeftMouse>mzgvg`z<C-g>
 
 
-" ## USAGE ##
+" USAGE :
 " Forget old VI commands
 set nocompatible
 " Disable ^S locks 
 " stty -ixon" 
+
+
+" SEARCH FOR VISUALLY SELECTED TEXT:
+" https://vim.fandom.com/wiki/Search_for_visually_selected_text
+" To use the mapping, visually select the characters that are wanted in the
+" search, then type // to search for the next occurrence of the selected text.
+" Then press n to search for the next occurrence.
+"
+" The :vnoremap () command maps // in visual mode to copy the visually
+" selected text into the " buffer, then start a search command and paste an
+" escaped version of the copied text into the line. <C-R> represents Ctrl-R
+" and <CR> represents carriage return (Enter). The search uses \V (:help /\V)
+" for "very no-magic" mode, and escape() (:help ) to escape / and \ characters
+" (the only ones that aren't literals with \V). 
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 
 
 "*****************************************************************************

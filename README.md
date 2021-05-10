@@ -9,7 +9,16 @@ Some features you will find in it:
 ...
 
 
-I expect to improve the expalantions of how I use the plugins and the commands I use the most.
+
+## Usage:
+* Search words between spaces and symbols.
+    * Visual mode: `*` 
+
+* Search selected text, not just words:
+    1. Free select with ctrl+V+arrow
+    2. `//`
+
+
 
 ## Instructions after :PlugInstall
 
