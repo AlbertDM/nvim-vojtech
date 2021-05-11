@@ -155,6 +155,13 @@ command! FixEndOfLine :%s/\r\(\n\)/\1/g
 " split | term
 "
 
+" Terminal limit 
+"let g:terminal_scrollback_buffer_size = -1
+:set termwinscroll=40000
+
+
+
+
 " NEW FEATURES:
 "
 "
