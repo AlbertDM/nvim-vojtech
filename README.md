@@ -19,6 +19,10 @@ Some features you will find in it:
     2. `//`
 
 
+## Install Plug.vim
+Sometimes plug installation may fail and curl will be against us, then this worked for me:
+`curl https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim > ~/.config/nvim/autoload/plug.vim`
+
 
 ## Instructions after :PlugInstall
 
