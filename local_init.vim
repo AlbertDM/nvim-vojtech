@@ -122,6 +122,9 @@ set nocompatible
 " Disable ^S locks 
 " stty -ixon" 
 
+" Resolves: Copy adds  ^[[200~<Ctrl+Shift+V>~^C
+set t_BE=
+
 
 " SEARCH FOR VISUALLY SELECTED TEXT:
 " https://vim.fandom.com/wiki/Search_for_visually_selected_text

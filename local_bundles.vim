@@ -13,10 +13,37 @@ Plug 'vim-scripts/ditaa'
 
 
 " ## CODING LANGUAGES ##
+
+
 " Rust-lang plugin
 Plug 'rust-lang/rust.vim'
 "
 Plug 'mattn/webapi-vim' "
+
+
+
+" Vim-Plugins & Csupport(c.vim) : C, C++, Bash, LaTeX, Lua, Vim, Git, Verilog..
+
+Plug 'WolfgangMehner/vim-plugins'
+
+" :help c-support
+" To enable the tools for cmake or doxygen, add these lines to ~/.vimrc :
+
+let  g:C_UseTool_cmake      = 'yes'
+let  g:C_UseTool_doxygen    = 'yes'
+
+" For how to enable the Doxygen templates, see Chapter 1.10.1 of the documentation:
+
+":help csupport-doxygen-enable
+
+
+
+" Tree-sitter 
+
+" NVIM 0.5 : Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+
+
+
 
 
 " READING ASSISTANTS:
